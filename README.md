@@ -36,5 +36,26 @@ _En la barra de navegación superior aparece un icono con forma de lupa que si s
 
 <img src="img/busqueda.gif" width="303"/>
 
+### Búsqueda avanzada
+
+_En el menú, está la opción de busqueda avanzada que al pulsar en ella aparece un formulario para introducir datos del título, del autor, de la editrial y el ISBN del libro que se quiere búscar:_
+
+<img src="img/busquedaAvanzada.gif" width="303"/>
+
+### Modificar perfil
+
+_En el menú también hay una opción para ir al perfil, donde se pueden modificar los datos del usuario:_
+
+<img src="img/perfilModify.jpg" width="303"/>
+
+### Cerrar Sesión
+
+_Si no quieres que se quede la aplicación abierta, hay una opción para cerrar la sesión en el menú:_
+
+<img src="img/cerrarSesion.gif" width="303"/>
+
+
+
+
 
 
