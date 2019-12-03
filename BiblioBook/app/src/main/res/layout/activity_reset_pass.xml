@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login"
+    android:padding="20dp"
+    tools:context=".ResetPassActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="RESTABLECER CONTRASEÑA"
+        android:textColor="@color/login_form_details"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:text="Escribe tu email y pulsa el botón para restablecer la contraseña, seguidamente te llegará a tu correo un email donde podrás cambiar tu contraseña."
+        android:textColor="@color/whiteColor"/>
+
+    <EditText
+        android:id="@+id/editTextEmailInResetPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/et_bg"
+        android:hint="Introduce tu email"
+        android:padding="16dp"
+        android:textColorHint="@color/login_form_details" />
+
+    <Button
+        android:id="@+id/btnResetPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="15dp"
+        android:text="RESTABECER CONTRASEÑA"
+        android:textColor="@color/whiteColor"
+        android:padding="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmailInResetPass"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "28914675826",
+    "firebase_url": "https://mislibros-e79ce.firebaseio.com",
+    "project_id": "mislibros-e79ce",
+    "storage_bucket": "mislibros-e79ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28914675826:android:8015e101c928bd4c9512eb",
+        "android_client_info": {
+          "package_name": "com.app.bibliobook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28914675826-a5iturruihcu9cnb0aghudjfd78m32ah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.bibliobook",
+            "certificate_hash": "2b9b3f8317100662fcfb0a29e58dcd093abb135d"
+          }
+        },
+        {
+          "client_id": "28914675826-kmk0ful9qfaoiq1pa5nm3m0r2ti01966.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP9qRQzx16ABCdwcddjGxga8pMwsnmPhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28914675826-kmk0ful9qfaoiq1pa5nm3m0r2ti01966.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

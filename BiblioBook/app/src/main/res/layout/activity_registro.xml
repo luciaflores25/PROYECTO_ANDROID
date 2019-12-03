@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:orientation="vertical"
+    android:padding="28dp"
+    tools:context=".RegistroActivity">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icono"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="REGISTRO"
+        android:textColor="@color/login_form_details"
+        android:textSize="28sp"
+        app:layout_constraintTop_toBottomOf="@id/icon"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/et_bg"
+        android:hint="Nombre"
+        android:padding="16dp"
+        android:textColorHint="@color/login_form_details"
+        app:layout_constraintTop_toBottomOf="@+id/icon" />
+
+    <EditText
+        android:id="@+id/editTextApe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_bg"
+        android:hint="Apellidos"
+        android:padding="16dp"
+        android:textColorHint="@color/login_form_details"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_bg"
+        android:hint="Email"
+        android:padding="16dp"
+        android:textColorHint="@color/login_form_details"
+        app:layout_constraintTop_toBottomOf="@+id/editTextApe" />
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_bg"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColorHint="@color/login_form_details"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="30dp"
+            android:text="REGISTRARME"
+            android:textColor="@android:color/white"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPass"/>
+
+    <Button
+        android:id="@+id/btnSendToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:text="Ya tengo cuenta"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegister"/>
+
+</LinearLayout>

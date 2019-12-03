@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login"
+    android:padding="28dp"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="PERFIL"
+        android:textColor="@color/whiteColor"
+        android:textSize="32sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Nombre y apellidos: "
+        android:textSize="16sp"
+        android:textColor="@color/whiteColor"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewNameApe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Correo electrónico"
+        android:textColor="@color/whiteColor"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnModify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/whiteColor"
+        android:text="MODIFICAR DATOS"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>

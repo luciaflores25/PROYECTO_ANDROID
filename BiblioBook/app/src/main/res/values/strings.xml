@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BiblioBook</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="error_data_message">Error Loading data from the Google Books API</string>
+    <string name="search">Search</string>
+    <string name="title_activity_book_detail">BookDetail</string>
+
+    <!--Hints-->
+    <string name="hint_title">Introduce Título</string>
+    <string name="hint_author">Introduce Autor</string>
+    <string name="hint_Publisher">Introduce Editorial</string>
+    <string name="hint_Isbn">Introduce ISBN</string>
+    <string name="no_search_data">Por favor, inserta un dato válido</string>
+</resources>
